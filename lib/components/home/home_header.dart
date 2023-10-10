@@ -12,9 +12,9 @@ class HomeHeader extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/background.jpeg"),
-            fit: BoxFit.cover,
-          ),
+              image: AssetImage("assets/background.jpeg"),
+              fit: BoxFit.cover,
+              colorFilter: ColorFilter.mode(Colors.grey, BlendMode.saturation)),
         ),
         child: Column(
           children: [

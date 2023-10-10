@@ -26,7 +26,7 @@ class HomeBodyPopular extends StatelessWidget {
           style: h5(),
         ),
         Text(
-          "rptmxm gnrl 2,500,000개 이상, 평균 평점 4.7점(5점 만점)",
+          "게스트 후기 2,500,000개 이상, 평균 평점 4.7점(5점 만점)",
           style: body1(),
         ),
         SizedBox(height: gap_m),

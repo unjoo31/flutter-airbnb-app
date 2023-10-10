@@ -1,3 +1,4 @@
+import 'package:airbnb_app/size.dart';
 import 'package:airbnb_app/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -28,6 +29,7 @@ class CommonFormField extends StatelessWidget {
             ),
           ),
         ),
+        SizedBox(height: gap_s),
         Positioned(
           top: 8,
           left: 20,

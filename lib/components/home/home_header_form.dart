@@ -8,6 +8,7 @@ class HomeHeaderForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
+
     return Padding(
       padding: const EdgeInsets.only(top: gap_m),
       child: Align(
@@ -62,6 +63,7 @@ class HomeHeaderForm extends StatelessWidget {
             Expanded(
               child: CommonFormField(prefixText: "체크인", hintText: "날짜 입력"),
             ),
+            SizedBox(width: gap_s),
             Expanded(
               child: CommonFormField(prefixText: "체크 아웃", hintText: "날짜 입력"),
             ),
@@ -73,6 +75,7 @@ class HomeHeaderForm extends StatelessWidget {
             Expanded(
               child: CommonFormField(prefixText: "성인", hintText: "2"),
             ),
+            SizedBox(width: gap_s),
             Expanded(
               child: CommonFormField(prefixText: "어린이", hintText: "0"),
             ),
